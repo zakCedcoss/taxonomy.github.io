@@ -1,0 +1,231 @@
+.home {
+    color: hotpink;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home h1 {
+    margin-top: 3rem;
+}
+
+.home input {
+    width: 500px;
+    font-size: 1.3rem;
+    border: 2px solid hotpink;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.card {
+    width: 60%;
+    background-color: hotpink;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.image-container {
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.details-container {
+    width: 70%;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.action {
+    width: 350px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action button {
+    width: 100px;
+    all: none;
+    border: none;
+    background-color: black;
+    color: hotpink;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.action button:hover {
+    background-color: #0f0f0f;
+}
+
+.count,
+.skills {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills {
+    font-size: 0.8rem;
+}
+
+.skills p {
+    width: max-content;
+    color: hotpink;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.footer {
+    color: black;
+    background-color: hotpink;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons {
+    font-size: 1.3rem;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 1rem;
+    cursor: pointer;
+}
+
+.user-details {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.user {
+    flex: 1;
+}
+
+.user-img,
+.details {
+    width: 70%;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
+
+.details {
+    width: 75%;
+}
+
+.details p {
+    font-size: 0.9rem;
+    margin-block: 1rem;
+    line-height: 1.4rem;
+}
+
+.btns {
+    margin-block: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: none;
+    width: 100px;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    background-color: #e7e7e7;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.all-tabs {
+    flex: 3;
+    min-height: 100%;
+    margin-top: 3rem;
+    border-top: 2px solid #d4d4d4;
+    border-bottom: 2px solid #d4d4d4;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.navigation-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.all-tabs a {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.contents {
+    margin-top: 1rem;
+}
+
+.repo {
+    padding-block: 1rem;
+    border-top: 1px solid #e0e0e0;
+    margin-bottom: 1rem;
+
+}
+
+.repo-name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.repo-name h3 {
+    color: #1ba0cc;
+}
+
+.repo-name span {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.7rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 13px;
+}
+
+.attribs {
+    margin-top: 1rem;
+}
+
+.attribs span {
+    margin-inline: 0.5rem;
+}
